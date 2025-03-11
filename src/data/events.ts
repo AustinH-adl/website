@@ -92,7 +92,7 @@ export const parseEvents = (raw: PayloadEvent): Event => {
 }
 
 // Times are in Australian Central Standard Time (ACST)
-export const EVENTS: Event[] = [
+export const EVENTS: Event[] = []
     // {
     //     title: 'Meet and Greet',
     //     date: { year: 2024, month: 'MAR', day: 1, endTime: '21:00' },
@@ -266,7 +266,6 @@ export const EVENTS: Event[] = [
     //     },
     //     image: '2025/industry-night.png',
     // },
-];
 
 export const CAROUSEL_IMAGES: Image[] = [
     {

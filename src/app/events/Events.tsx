@@ -72,6 +72,7 @@ export default function Events({ className }: { className?: string }) {
             }
         });
 
+
         // Reverse the order of events within each year (i.e., most recent event at the top)
         Object.values(upcomingEvents).forEach((events) => events.reverse());
         Object.values(pastEvents).forEach((events) => events.reverse());
